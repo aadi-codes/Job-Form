@@ -1,0 +1,207 @@
+body {
+    background-image: url(/BG.png);
+    background-color: rgba(115, 205, 229, 255);
+    background-repeat: no-repeat;
+    background-size: 1152px 824px;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin: 5% auto 0% auto;
+    padding: 1% 4% 0% 4%;
+    font-size: 360%;
+    font-family: 'Changa';
+    font-weight: 100;
+    color: #EE4011;
+}
+
+#description {
+    text-align: center;
+    margin: 0% auto 5% auto;
+    font-size: 120%;
+    font-family: 'Kaushan Script';
+    font-weight: 5;
+   color: #1d1d1d;
+}
+
+#survey-form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(16, 65px);
+    grid-gap: 10px;
+    background-color: rgba(0, 255, 255, 0.4);
+    border: 5px rgba(0, 255, 255, 0.55) solid;
+    width: auto;
+    border-radius: 50px;
+    margin: 0% 15% 0% 15%;
+    padding: 1%;
+    font-size: 110%;
+}
+
+h3 {
+    grid-area: 1/1/2/3;
+    text-align: center;
+    font-size: 170%;
+    margin: 2px;
+    font-family: 'Montserrat Alternates';
+}
+
+/* input succesors below */
+
+.input-succ {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'M PLUS Code Latin';
+    font-weight: 10;
+    font-size: 140%;
+}
+
+#name-label {
+    grid-area: 2/1 /3 /2;
+    text-align: right;
+}
+
+#email-label {
+    grid-area: 3/1 /4 /2;
+    text-align: right;
+}
+
+#number-label {
+    grid-area: 4/1 /5 /2;
+    text-align: right;
+}
+
+#pre-salary {
+    grid-area: 5/ 1/ 6/2;
+    text-align: right;
+}
+
+#salary {
+    grid-area: 6/ 1/ 7/2;
+    text-align: right;
+}
+
+#age {
+    grid-area: 7/ 1/ 8/2;
+    text-align: right;
+}
+
+#skills-label{
+    grid-area: 8/ 1/ 9/2;
+    text-align: right;
+}
+
+#position {
+    grid-area: 9/ 1/10 /2;
+    text-align: right;
+}
+
+#know {
+    grid-area: 10/ 1/ 11/2;
+    text-align: right;
+}
+
+
+#refrence {
+    grid-area: 12/1 /13 /2;
+    text-align: center;
+}
+
+#Comments {
+    grid-area: 12/2 /13 /3;
+    text-align: center;
+}
+
+
+
+/* inputa below */
+
+.input {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#name {
+    grid-area: 2/2 /3 /3;
+    text-align: left;
+}
+
+#email {
+    grid-area: 3/2 /4 /3;
+    text-align: left;
+}
+
+#number {
+    grid-area: 4/2 /5 /3;
+    text-align: left;
+}
+
+#dropdown {
+    grid-area: 5/ 2/ 6/3;
+    text-align: left;
+}
+
+#input-salary {
+    grid-area: 6/ 2/ 7/3;
+    text-align: left;
+}
+
+#input-age {
+    grid-area: 7/ 2/ 8/3;
+    text-align: left;
+}
+
+#input-skills{
+    grid-area: 8/ 2/ 9/3;
+    text-align: left;
+}
+
+#input-position {
+    grid-area: 9/ 2/10 /3;
+    text-align: left;
+}
+
+#input-know {
+    grid-area: 10/ 2/ 11/3;
+    text-align: left;
+}
+
+#hr {
+    grid-area: 11/1/12/3;
+}
+
+#input-refrence {
+    grid-area: 13/1 /14 /2;
+    text-align: center;
+}
+
+#input-Comments {
+    grid-area: 13/2 /14 /3;
+    text-align: center;
+}
+
+#file {
+    grid-area: 14/1 /15 /3;
+    text-align: left;
+}
+
+#submit {
+    grid-area: 15/1 /16 /3;
+    display: block;
+    justify-self: center;
+    width: 30%;
+    height: 90%;
+    font-size: 150%;
+    font-family: 'Montserrat Alternates';
+    background-color: rgba(0, 255, 255, 0.55);
+    border: 3px solid #fe3d43c3;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+input#submit:hover{
+    border: 3px solid rgb(34, 33, 33);
+    font-size: 160%;
+    cursor: pointer;
+}
